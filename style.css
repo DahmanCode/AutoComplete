@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #1aee5a, #4ae4cf);
+}
+
+form {
+  width: 75vmin;
+  height: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 40px 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 15px 10px;
+  border: none;
+  border-bottom: 1px solid #645979;
+  outline: none;
+  border-radius: 5px 5px 0 0;
+  background-color: #ffffff;
+  font-size: 16px;
+}
