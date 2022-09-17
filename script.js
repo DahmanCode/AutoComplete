@@ -51,9 +51,9 @@ input.addEventListener("keyup", (e) => {
 
       listItem.classList.add("list-items");
       listItem.style.cursor = "pointer";
-      listItem.setAttribute("onclick", "displayNames('" + i + "')");
+      listItem.setAttribute("onclick", `displayNames('${i}')`);
 
-      let word = "<b>" + i.substr(0, input.value.length) + "</b>";
+      let word = `<b>${i.substr(0, input.value.length)}</b>`;
       word += i.substr(input.value.length);
       
       listItem.innerHTML = word;
